@@ -1,0 +1,1898 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NQ - Shop</title>
+    <link rel="icon" href="assets/img/logo/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- main -->
+    <div class="app">
+        <!-- header -->
+        <header class="header">
+            <div class="grid wide">
+                <!-- navbar -->
+                <nav class="header__navbar hide-on-mobile-tablet">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item header__nav-item--hover header__nav-item--separate">Kênh Người Bán</li>
+                        <li class="header__nav-item header__nav-item--hover header__nav-item--separate">Vào cửa hàng trên ứng dụng NQ - Shop</li>
+                        <li class="header__nav-item header__nav-item--hover header__nav-item--separate header__show-qr">
+                            Tải ứng dụng
+                        </li>
+                        <!-- qr code -->
+                        <div class="header__qrcode">
+                            <img src="./assets/img/qr/qr-code.png" class="header__qr">
+                            <div class="header__apps">
+                                <a href="#" class="header__app-link">
+                                    <img src="./assets/img/qr/app-store.png" class="header__app-img">
+                                </a>
+                                <a href="#" class="header__app-link">
+                                    <img src="./assets/img/qr/gg-play.png" class="header__app-img">
+                                </a>
+                            </div>
+                        </div>
+                        <li class="header__nav-item">
+                            Kết nối
+                            <a href="https://www.facebook.com/nhat.quang.16541?locale=vi_VN" class="header__nav-icon-link">
+                                <i class="header__nav-icon fab fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/nh.wang_26/" class="header__nav-icon-link">
+                                <i class="header__nav-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item header__show-note">
+                            <a href="#" class="header__nav-item-link">
+                                <i class="header__nav-icon far fa-bell"></i>
+                                Thông báo
+                            </a>
+                            <!-- thông báo -->
+                            <div class="header__notifi">
+                                <header class="header__notifi-header">
+                                    <h3>Thông Báo Mới Nhận</h3>
+                                </header>
+                                <ul class="header__notifi-list">
+                                    <li class="header__notifi-item">
+                                        <a href="#" class="header__notifi-link">
+                                            <img src="./assets/img/sp/casio.png" class="header__notifi-img">
+                                            <div class="header__notifi-info">
+                                                <div class="header__notifi-name">
+                                                    Casio fx 580 VN Plus
+                                                </div>
+                                                <div class="header__notifi-desc">
+                                                    Mua Casio 580 của LTP bao xịn, bao mượt, bao đẹp
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notifi-item">
+                                        <a href="#" class="header__notifi-link">
+                                            <img src="./assets/img/sp/iphone.png" class="header__notifi-img">
+                                            <div class="header__notifi-info">
+                                                <div class="header__notifi-name">
+                                                    Điện Thoại iPhone 13 Pro 128GB - Hàng Nhập Khẩu
+                                                </div>
+                                                <div class="header__notifi-desc">
+                                                    3 Camera: Ống kính góc rộng f/1.5 - Tele f/2.8 - Siêu rộng f/1.8
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notifi-item">
+                                        <a href="#" class="header__notifi-link">
+                                            <img src="./assets/img/sp/iphone2.png" class="header__notifi-img">
+                                            <div class="header__notifi-info">
+                                                <div class="header__notifi-name">
+                                                    Apple iPhone 12 Pro Max 128GB
+                                                </div>
+                                                <div class="header__notifi-desc">
+                                                    iPhone 12 Pro Max. Màn hình Super Retina XDR 6.7 inch
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notifi-item">
+                                        <a href="#" class="header__notifi-link">
+                                            <img src="./assets/img/sp/laptop.png" class="header__notifi-img">
+                                            <div class="header__notifi-info">
+                                                <div class="header__notifi-name">
+                                                    Laptop HP 650 g1 siêu khỏe bền
+                                                </div>
+                                                <div class="header__notifi-desc">
+                                                    Laptop siêu bền, HP 650 g1 siêu khỏe bền ssd 120gb 15,6inh FULL HD
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notifi-item">
+                                        <a href="#" class="header__notifi-link">
+                                            <img src="./assets/img/sp/laptop2.png" class="header__notifi-img">
+                                            <div class="header__notifi-info">
+                                                <div class="header__notifi-name">
+                                                    Laptop thinkpad x240 chất mỏng nhẹ i5 4300u Ram 4gb Ssd 128gb
+                                                </div>
+                                                <div class="header__notifi-desc">
+                                                    HP 650 g1 chip M đời 4, cpu i5 4200M ram 4gb -8gb
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notifi-footer">
+                                    <a href="#" class="header__notifi-footer-btn">Xem tất cả</a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-item-link">
+                                <i class="header__nav-icon far fa-question-circle"></i>
+                                Hỗ trợ
+                            </a>
+                        </li>
+                        
+                        <li class="header__nav-item header__nav-item--bold header__nav-item--separate">
+                            <a href="#" class="header__nav-item-link" id="open-register">Đăng ký</a>
+                        </li>
+                        <li class="header__nav-item header__nav-item--bold">
+                            <a href="#" class="header__nav-item-link" id="open-login">Đăng nhập</a>
+                        </li>
+
+                        <!-- <li class="header__nav-item header__nav-user">
+                            <img src="./assets/img/user.png" class="header__nav-user-avt">
+                            <a href="#" class="header__nav-item-link header__nav-item--bold">Lục Thiên Phong</a>
+                            <ul class="header__nav-user-menu">
+                                <li class="header__nav-user-item">
+                                    <a href="#">Tài khoản của tôi</a>
+                                </li>
+                                <li class="header__nav-user-item">
+                                    <a href="#">Đơn mua</a>
+                                </li>
+                                <li class="header__nav-user-item">
+                                    <a href="#">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </li> -->
+                    </ul>
+                </nav>
+                <!-- search -->
+                <div class="header__contain">
+                    <label for="mobile-search" class="header__mobile-search">
+                        <i class="header__mobile-search-icon fas fa-search"></i>
+                    </label>
+                    <div class="header__logo">
+                        <a href="" class="header__logo-link">
+                            <svg width="409.5" height="93.44454856884722" viewBox="0 0 369.91304347826093 84.41112907827704" class="header__logo-img">
+                                <defs id="SvgjsDefs2614"></defs>
+                                <g id="SvgjsG2615" featurekey="S6ay6y-0" transform="matrix(0.7267953760559289,0,0,0.7267953760559289,-14.022341294611742,-8.330758640582633)" fill="#ffffff">
+                                    <path
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        d="M96.63 57.12q11.83 7.36 23.98 14.42c4.75 2.76 4.29 5.89-.18 8.46q-3.3 1.89-6.48 3.64-.8.44-.02.91l6.97 4.19a4.64 4.63-74.5 0 1 2.24 3.97v17.42a4.2 4.2 0 0 1-2.05 3.61q-10.37 6.18-21.01 12.58c-2.5 1.51-3.82 1.71-6.39.13q-13.16-8.08-21.94-13.31a.63.63 0 0 0-.64 0l-23.23 13.88a4.18 4.15 45 0 1-4.27-.01l-21.55-12.96a3.87 3.86 15.6 0 1-1.87-3.31q.01-11.33-.01-17.49-.02-3.31 2.55-4.76 3.07-1.73 6.62-4.05a.31.31 0 0 0-.02-.53q-6.07-3.54-8.62-5.19-1.57-1.02-1.4-3.41c.15-1.92 1.7-2.78 3.31-3.74q9.73-5.76 23.85-14.27.46-.28.16-.73c-.49-.73-1.02-1.43-1.03-2.51q-.02-17.99.01-25.14a4.73 4.72 74.6 0 1 2.28-4.03q9.96-5.99 20.84-12.4 2.97-1.75 5.04-.52 15.95 9.45 20.69 12.07 3.17 1.74 3.2 4.7.1 12.03-.04 25.02-.01.82-1.17 2.58-.31.48.18.78m-25.56-12.7q.53-2.61 2.69-3.93 5.89-3.61 17.45-11.03a.31.31 0 0 0-.01-.53L72.17 17.49a.79.79 0 0 0-.82 0L52.33 28.85a1.95 1.95 0 0 0-.94 1.67v22.29a2.23 2.22 15.7 0 0 1.07 1.9l18.03 10.84a.36.35-74.5 0 0 .54-.31l.02-20.56a1.77 1.64-42.8 0 1 .02-.26m26.42 28.32c2.06 1.44 2.23 4.4-.02 5.75Q79.09 89.54 73.35 92.96a3.74 3.72 44.9 0 1-3.83-.01Q59.11 86.71 47.76 79.7c-1.31-.81-2.87-1.56-3.41-2.97-.87-2.26.63-3.76 2.48-4.89q5.13-3.1 11.23-6.78a.16.16 0 0 0 0-.27l-6.3-3.78q-.24-.15-.48 0L27.46 75.24a.47.47 0 0 0-.01.81l43.38 26.09a1.14 1.12 44.6 0 0 1.15 0l43.89-26.22a.3.3 0 0 0 0-.52L91.29 60.62q-.17-.11-.34 0l-6.4 3.82a.18.17 44 0 0 .01.3q8.83 5.14 12.93 8m-32 11.01q0 .18.08.23 2.9 1.66 5.73 3.44.01.01.14.02.06.01.12.01t.12-.01q.13-.01.14-.02 2.83-1.78 5.73-3.44.07-.05.07-.23t-.07-.23q-2.9-1.66-5.73-3.44-.01-.01-.14-.02-.06-.01-.12-.01t-.12.01q-.13.01-.14.02-2.83 1.78-5.73 3.44-.08.05-.08.23M45.6 121.56a.35.35 0 0 0 .36 0l22.62-13.51a.35.35 0 0 0 0-.6l-19.1-11.48a.35.35 0 0 0-.36 0l-22.62 13.5a.35.35 0 0 0 0 .6zm70.54-11.46a.34.34 0 0 0 0-.58L93.65 95.99a.34.34 0 0 0-.34 0l-19.13 11.43a.34.34 0 0 0 0 .58l22.49 13.53a.34.34 0 0 0 .34 0z"
+                                    ></path>
+                                </g>
+                                <g id="SvgjsG2616" featurekey="j5pGhi-0" transform="matrix(2.5380264240731956,0,0,2.5380264240731956,91.8976257539815,10.3255015701563)" fill="#ffffff">
+                                    <path
+                                        d="M13.88 5 q0.28 0 0.49 0.21 t0.21 0.49 l0 13.4 q0 0.28 -0.21 0.49 t-0.49 0.21 l-1.76 0 q-0.36 0 -0.58 -0.28 l-9.78 -13.4 q-0.12 -0.16 -0.14 -0.36 t0.07 -0.38 t0.26 -0.28 t0.37 -0.1 l1.76 0 q0.16 0 0.32 0.07 t0.24 0.21 l7.02 9.54 l0 -9.12 q0 -0.28 0.2 -0.49 t0.5 -0.21 l1.52 0 z M3.84 14.7 q0.28 0 0.49 0.2 t0.21 0.5 l0 3.7 q0 0.28 -0.21 0.49 t-0.49 0.21 l-1.52 0 q-0.28 0 -0.49 -0.21 t-0.21 -0.49 l0 -3.7 q0 -0.3 0.21 -0.5 t0.49 -0.2 l1.52 0 z M29.2 14.36 q-0.12 -0.12 -0.17 -0.29 t-0.01 -0.33 q0.1 -0.64 0.1 -1.14 q0 -2.06 -1.22 -3.36 q-1.28 -1.34 -3.38 -1.34 t-3.38 1.34 q-1.22 1.3 -1.22 3.36 t1.22 3.36 q1.28 1.34 3.38 1.34 q0.84 0 1.5 -0.2 l-1.14 -1.14 q-0.2 -0.24 -0.2 -0.5 t0.2 -0.5 l1.08 -1.08 q0.22 -0.22 0.51 -0.22 t0.49 0.22 l4.34 4.34 q0.22 0.2 0.22 0.49 t-0.22 0.51 l-1.08 1.08 q-0.18 0.2 -0.49 0.2 t-0.51 -0.2 l-0.98 -1 q-1.64 0.9 -3.72 0.9 q-3.32 0 -5.46 -2.22 q-2.08 -2.18 -2.08 -5.38 t2.08 -5.38 q2.16 -2.22 5.47 -2.22 t5.45 2.24 q2.08 2.14 2.08 5.36 q0 1.42 -0.46 2.74 q-0.06 0.18 -0.19 0.3 t-0.31 0.14 q-0.38 0.1 -0.66 -0.18 z M44.06 11.58 q0.28 0 0.49 0.2 t0.21 0.5 l0 1.6 q0 0.28 -0.21 0.49 t-0.49 0.21 l-5.52 0 q-0.3 0 -0.5 -0.21 t-0.2 -0.49 l0 -1.6 q0 -0.3 0.2 -0.5 t0.5 -0.2 l5.52 0 z M61.36000000000001 12.42 q0.86 0.54 1.31 1.32 t0.45 1.74 q0 2.26 -1.72 3.46 q-1.16 0.84 -3.14 1.06 l-0.08 0 q-0.28 0 -0.46 -0.18 q-0.24 -0.22 -0.24 -0.52 l0 -1.44 q0 -0.26 0.18 -0.46 t0.44 -0.24 q0.94 -0.1 1.46 -0.44 q0.4 -0.24 0.54 -0.62 q0.08 -0.22 0.08 -0.56 q0 -0.22 -0.08 -0.38 t-0.28 -0.3 q-0.58 -0.4 -1.5 -0.68 l-0.32 -0.1 q-1 -0.28 -1.84 -0.46 q-0.18 -0.04 -0.58 -0.14 l-0.22 -0.06 q-0.72 -0.18 -1.52 -0.5 q-1.18 -0.5 -1.94 -1.26 q-0.88 -0.88 -0.88 -2.32 q0 -1.98 1.52 -3.22 q1.04 -0.88 2.92 -1.12 q0.32 -0.04 0.55 0.18 t0.23 0.52 l0 1.44 q0 0.26 -0.16 0.46 t-0.41 0.23 t-0.51 0.11 q-0.58 0.22 -0.82 0.43 t-0.34 0.43 q-0.1 0.34 -0.1 0.64 q0 0.16 0.18 0.34 q0.28 0.28 0.82 0.5 q0.24 0.1 0.84 0.3 l2.5 0.62 l0.12 0.04 q0.94 0.26 1.36 0.4 q0.94 0.32 1.64 0.78 z M58.02000000000001 7.9 q-0.24 -0.06 -0.39 -0.25 t-0.15 -0.45 l0 -1.46 q0 -0.32 0.26 -0.54 q0.1 -0.1 0.26 -0.13 t0.3 -0.01 q1.76 0.28 2.86 1.2 q1.5 1.24 1.6 3.16 q0.02 0.28 -0.19 0.51 t-0.51 0.23 l-1.56 0 q-0.26 0 -0.46 -0.18 t-0.22 -0.44 q-0.08 -0.52 -0.34 -0.86 q-0.42 -0.5 -1.3 -0.76 q-0.06 0 -0.08 -0.02 l-0.08 0 z M55.68000000000001 17.08 q0.24 0.04 0.4 0.24 t0.16 0.44 l0 1.48 q0 0.32 -0.24 0.54 q-0.2 0.16 -0.46 0.16 l-0.1 0 q-1.86 -0.28 -3.06 -1.22 q-1.56 -1.24 -1.76 -3.46 q-0.04 -0.32 0.18 -0.55 t0.52 -0.23 l1.58 0 q0.28 0 0.48 0.19 t0.22 0.47 q0.06 1 0.98 1.54 q0.42 0.24 1.1 0.4 z M66.14 10.12 q-0.28 0 -0.49 -0.21 t-0.21 -0.49 l0 -3.72 q0 -0.28 0.21 -0.49 t0.49 -0.21 l1.52 0 q0.3 0 0.5 0.21 t0.2 0.49 l0 3.72 q0 0.28 -0.2 0.49 t-0.5 0.21 l-1.52 0 z M77 5 q0.28 0 0.49 0.21 t0.21 0.49 l0 13.44 q0 0.28 -0.21 0.49 t-0.49 0.21 l-1.52 0 q-0.3 0 -0.5 -0.21 t-0.2 -0.49 l0 -5.28 l-6.42 0 l0 5.28 q0 0.28 -0.2 0.49 t-0.5 0.21 l-1.52 0 q-0.28 0 -0.49 -0.21 t-0.21 -0.49 l0 -7.48 q0 -0.28 0.21 -0.49 t0.49 -0.21 l8.64 0 l0 -5.26 q0 -0.28 0.2 -0.49 t0.5 -0.21 l1.52 0 z M86.74000000000001 5.16 q0.24 0.2 0.24 0.54 l0 1.5 q0 0.26 -0.15 0.45 t-0.41 0.25 q-1.28 0.26 -2.18 1.22 q-1.22 1.28 -1.22 3.33 t1.22 3.35 q0.9 0.94 2.18 1.2 q0.26 0.06 0.41 0.25 t0.15 0.45 l0 1.5 q0 0.32 -0.24 0.54 q-0.22 0.16 -0.46 0.16 l-0.12 0 q-2.32 -0.38 -3.98 -2.1 q-2.08 -2.14 -2.08 -5.33 t2.08 -5.37 q1.62 -1.68 3.98 -2.08 q0.32 -0.06 0.58 0.14 z M93.02000000000001 7.1 q2.08 2.18 2.08 5.37 t-2.08 5.33 q-1.66 1.72 -3.98 2.1 l-0.12 0 q-0.24 0 -0.46 -0.16 q-0.24 -0.22 -0.24 -0.54 l0 -1.5 q0 -0.26 0.15 -0.45 t0.41 -0.25 q1.28 -0.26 2.18 -1.2 q1.22 -1.3 1.22 -3.35 t-1.22 -3.33 q-0.9 -0.96 -2.18 -1.22 q-0.26 -0.06 -0.41 -0.25 t-0.15 -0.45 l0 -1.5 q0 -0.34 0.25 -0.54 t0.57 -0.14 q2.36 0.4 3.98 2.08 z M104.24000000000001 5 q2.38 0 3.84 1.37 t1.46 3.65 t-1.44 3.64 t-3.86 1.36 l-3.82 0 l0 4.08 q0 0.28 -0.21 0.49 t-0.49 0.21 l-1.52 0 q-0.28 0 -0.49 -0.21 t-0.21 -0.49 l0 -6.2 q0 -0.28 0.21 -0.49 t0.49 -0.21 l5.92 0 q1.34 0 1.92 -0.58 q0.58 -0.52 0.58 -1.58 t-0.6 -1.63 t-1.9 -0.57 l-5.92 0 q-0.28 0 -0.49 -0.21 t-0.21 -0.49 l0 -1.44 q0 -0.28 0.21 -0.49 t0.49 -0.21 l6.04 0 z"
+                                    ></path>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                    <input type="checkbox" id="mobile-search" class="header__search-check" hidden>
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Tìm kiếm trên NQ - Shop">
+                            <div class="header__search-history">
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="#">Kem dưỡng da</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="#">Kem trị mụn</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="#">Máy sấy tóc</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="#">Nồi cơm điện</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="#">Iphone 13 Pro Max</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="#">Trái cây</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="btn header__search-btn">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                        </button>
+                    </div>
+                    
+                    <!-- header__cart--no-cart --><!-- header__cart--has-cart -->
+                    <div class="header__cart header__cart--has-cart">
+                        <i class="header__cart-icon fas fa-shopping-cart"></i>
+                        <div class="header__cart-count">4</div>
+                        
+                        <div class="header__cart-list no-cart">
+                            <img src="./assets/img/sp/no-cart.png" class="header__no-cart-img">
+                            <p class="header__no-cart-text">Chưa có sản phẩm</p>
+                        </div>
+                        
+                        <div class="header__cart-list has-cart">
+                            <h4 class="header__cart-heading">Sản phẩm đã chọn</h4>
+                            <ul class="header__cart-list-item">
+                                <li class="header__cart-item">
+                                        <img src="https://down-vn.img.susercontent.com/file/vn-11134201-7ra0g-m8m7ic698u4iab@resize_w900_nl.webp" alt="" class="header__cart-img">                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-heading">
+                                            <h3 class="header__cart-item-name">Bộ kem đặt trị vùng mắt Bộ kem đặt trị vùng mắt Bộ kem đặt trị vùng mắt Bộ kem đặt trị vùng mắt</h3>
+                                            <p class="header__cart-item-price">2.000.000đ</p>
+                                        </div>
+                                        <div class="header__cart-item-body">
+                                            <p class="header__cart-item-number">x 2</p>
+                                            <div class="header__cart-item-close">
+                                                Xoá
+                                                <i class="fas fa-times"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__cart-item">
+                                    <img src="https://down-vn.img.susercontent.com/file/vn-11134201-7ra0g-m8m7ic698u4iab@resize_w900_nl.webp" alt="" class="header__cart-img">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-heading">
+                                            <h3 class="header__cart-item-name">Bộ kem đặt trị vùng mắt</h3>
+                                            <p class="header__cart-item-price">2.500.000đ</p>
+                                        </div>
+                                        <div class="header__cart-item-body">
+                                            <p class="header__cart-item-number">x 1</p>
+                                            <div class="header__cart-item-close">
+                                                Xoá
+                                                <i class="fas fa-times"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__cart-item">
+                                    <img src="https://down-vn.img.susercontent.com/file/vn-11134201-7ra0g-m8m7ic698u4iab@resize_w900_nl.webp" alt="" class="header__cart-img">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-heading">
+                                            <h3 class="header__cart-item-name">Bộ kem đặt trị vùng mắt</h3>
+                                            <p class="header__cart-item-price">2.800.000đ</p>
+                                        </div>  
+                                        <div class="header__cart-item-body">
+                                            <p class="header__cart-item-number">x 1</p>
+                                            <div class="header__cart-item-close">
+                                                Xoá
+                                                <i class="fas fa-times"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__cart-item">
+                                    <img src="https://down-vn.img.susercontent.com/file/vn-11134201-7ra0g-m8m7ic698u4iab@resize_w900_nl.webp" alt="" class="header__cart-img">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-heading">
+                                            <h3 class="header__cart-item-name">Bộ kem đặt trị vùng mắt</h3>
+                                            <p class="header__cart-item-price">3.200.000đ</p>
+                                        </div>  
+                                        <div class="header__cart-item-body">
+                                            <p class="header__cart-item-number">x 3</p>
+                                            <div class="header__cart-item-close">
+                                                Xoá
+                                                <i class="fas fa-times"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__cart-item">
+                                    <img src="https://down-vn.img.susercontent.com/file/vn-11134201-7ra0g-m8m7ic698u4iab@resize_w900_nl.webp" alt="" class="header__cart-img">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-heading">
+                                            <h3 class="header__cart-item-name">Bộ kem đặt trị vùng mắt</h3>
+                                            <p class="header__cart-item-price">2.000.000đ</p>
+                                        </div>
+                                        <div class="header__cart-item-body">
+                                            <p class="header__cart-item-number">x 2</p>
+                                            <div class="header__cart-item-close">
+                                                Xoá
+                                                <i class="fas fa-times"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__cart-item">
+                                    <img src="https://down-vn.img.susercontent.com/file/vn-11134201-7ra0g-m8m7ic698u4iab@resize_w900_nl.webp" alt="" class="header__cart-img">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-heading">
+                                            <h3 class="header__cart-item-name">Bộ kem đặt trị vùng mắt</h3>
+                                            <p class="header__cart-item-price">2.500.000đ</p>
+                                        </div>
+                                        <div class="header__cart-item-body">
+                                            <p class="header__cart-item-number">x 1</p>
+                                            <div class="header__cart-item-close">
+                                                Xoá
+                                                <i class="fas fa-times"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__cart-item">
+                                    <img src="https://down-vn.img.susercontent.com/file/vn-11134201-7ra0g-m8m7ic698u4iab@resize_w900_nl.webp" alt="" class="header__cart-img">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-heading">
+                                            <h3 class="header__cart-item-name">Bộ kem đặt trị vùng mắt</h3>
+                                            <p class="header__cart-item-price">2.800.000đ</p>
+                                        </div>  
+                                        <div class="header__cart-item-body">
+                                            <p class="header__cart-item-number">x 1</p>
+                                            <div class="header__cart-item-close">
+                                                Xoá
+                                                <i class="fas fa-times"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__cart-item">
+                                    <img src="https://down-vn.img.susercontent.com/file/vn-11134201-7ra0g-m8m7ic698u4iab@resize_w900_nl.webp" alt="" class="header__cart-img">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-heading">
+                                            <h3 class="header__cart-item-name">Bộ kem đặt trị vùng mắt</h3>
+                                            <p class="header__cart-item-price">3.200.000đ</p>
+                                        </div>  
+                                        <div class="header__cart-item-body">
+                                            <p class="header__cart-item-number">x 3</p>
+                                            <div class="header__cart-item-close">
+                                                Xoá
+                                                <i class="fas fa-times"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="header__cart-footer">
+                                <a href="#" class="btn btn--primary header__cart-see-cart">Xem giỏ hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="header__sort-bar">
+                <li class="header__sort-item">
+                    <a href="#" class="header__sort-link">Liên quan</a>
+                </li>
+                <li class="header__sort-item header__sort-item--active">
+                    <a href="#" class="header__sort-link">Mới nhất</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="#" class="header__sort-link">Bán chạy</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="#" class="header__sort-link">Giá</a>
+                </li>
+            </ul>
+        </header>
+        <!-- container -->
+        <div class="container">
+            <div class="grid wide">
+                <div class="row sm-gutter">
+                    <div class="col l-2 m-0 c-0">
+                        <!-- category -->
+                        <nav class="category">
+                            <h3 class="category-heading">
+                                <i class="category-heading-icon fas fa-list-ul"></i>
+                                Bộ lọc tìm kiếm
+                            </h3>
+                            <div class="category-group">
+                                <div class="category-group-title">Theo Danh Mục</div>
+                                <ul class="category-group-list">
+                                    <li class="category-group-item">
+                                        <input type="checkbox" class="category-group-item-check">
+                                        Thiết bị mạng
+                                    </li>
+                                    <li class="category-group-item">
+                                        <input type="checkbox" class="category-group-item-check">
+                                        Chuột và bàn phím
+                                    </li>
+                                    <li class="category-group-item">
+                                        <input type="checkbox" class="category-group-item-check">
+                                        USB
+                                    </li>
+                                    <li class="category-group-item">
+                                        <input type="checkbox" class="category-group-item-check">
+                                        Link kiện máy tính
+                                    </li>
+                                    <li class="category-group-item">
+                                        <input type="checkbox" class="category-group-item-check">
+                                        Wifi
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="category-group">
+    <div class="category-group-title">Nơi Bán</div>
+    <ul class="category-group-list">
+        <li class="category-group-item">
+            <input type="checkbox" class="category-group-item-check" value="Hà Nội"> Hà Nội
+        </li>
+        <li class="category-group-item">
+            <input type="checkbox" class="category-group-item-check" value="Hồ Chí Minh"> Hồ Chí Minh
+        </li>
+        <li class="category-group-item">
+            <input type="checkbox" class="category-group-item-check" value="Đà Nẵng"> Đà Nẵng
+        </li>
+    </ul>
+</div>
+
+                            <div class="category-group">
+                                <div class="category-group-title">Đơn Vị Vận Chuyển</div>
+                                <ul class="category-group-list">
+                                    <li class="category-group-item">
+                                        <input type="checkbox" class="category-group-item-check">
+                                        Hoả tốc
+                                    </li>
+                                    <li class="category-group-item">
+                                        <input type="checkbox" class="category-group-item-check">
+                                        Nhanh
+                                    </li>
+                                    <li class="category-group-item">
+                                        <input type="checkbox" class="category-group-item-check">
+                                        Tiết kiệm
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="category-group">
+                                <div class="category-group-title">Thương Hiệu</div>
+                                <ul class="category-group-list">
+                                    <li class="category-group-item">
+                                        <input type="checkbox" class="category-group-item-check">
+                                        Kingston
+                                    </li>
+                                    <li class="category-group-item">
+                                        <input type="checkbox" class="category-group-item-check">
+                                        Sandisk
+                                    </li>
+                                    <li class="category-group-item">
+                                        <input type="checkbox" class="category-group-item-check">
+                                        Seagate
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="category-group">
+<div class="category-group-title">Khoảng Giá</div>
+<div class="category-group-filter">
+    <input type="number" placeholder="đ TỪ" class="category-group-filter-input" id="min-price">
+    <i class="fas fa-arrow-right"></i>
+    <input type="number" placeholder="đ ĐẾN" class="category-group-filter-input" id="max-price">
+</div>
+<button class="btn btn--primary category-group-filter-btn">Áp dụng</button>
+</div>
+                            <div class="category-group">
+                                <div class="category-group-title">Loại Shop</div>
+                                <ul class="category-group-list">
+                                    <li class="category-group-item">
+                                        <input type="checkbox" class="category-group-item-check">
+                                        NQ - Shop
+                                    </li>
+                                    <li class="category-group-item">
+                                        <input type="checkbox" class="category-group-item-check">
+                                        NQ - Shop Mail
+                                    </li>
+                                    <li class="category-group-item">
+                                        <input type="checkbox" class="category-group-item-check">
+                                        Shop yêu thích
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="category-group">
+                                <div class="category-group-title">Tình Trạng</div>
+                                <ul class="category-group-list">
+                                    <li class="category-group-item">
+                                        <input type="checkbox" class="category-group-item-check">
+                                        Mới
+                                    </li>
+                                    <li class="category-group-item">
+                                        <input type="checkbox" class="category-group-item-check">
+                                        Đã sử dụng
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="category-group">
+                                <div class="category-group-title">Lựa Chọn Thanh Toán</div>
+                                <ul class="category-group-list">
+                                    <li class="category-group-item">
+                                        <input type="checkbox" class="category-group-item-check">
+                                        Thanh toán khi nhận hàng
+                                    </li>
+                                    <li class="category-group-item">
+                                        <input type="checkbox" class="category-group-item-check">
+                                        Chuyển khoản
+                                    </li>
+                                    <li class="category-group-item">
+                                        <input type="checkbox" class="category-group-item-check">
+                                        Trả góp 0%
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="category-group">
+                                <div class="category-group-title">Đánh Giá</div>
+                                <div class="rating-star">
+                                    <input type="checkbox" class="category-group-item-check">
+                                    <i class="star-checked far fa-star"></i>
+                                    <i class="star-checked far fa-star"></i>
+                                    <i class="star-checked far fa-star"></i>
+                                    <i class="star-checked far fa-star"></i>
+                                    <i class="star-checked far fa-star"></i>
+                                </div>
+                                <div class="rating-star">
+                                    <input type="checkbox" class="category-group-item-check">
+                                    <i class="star-checked far fa-star"></i>
+                                    <i class="star-checked far fa-star"></i>
+                                    <i class="star-checked far fa-star"></i>
+                                    <i class="star-checked far fa-star"></i>
+                                    <i class="star-uncheck far fa-star"></i>
+                                </div>
+                                <div class="rating-star">
+                                    <input type="checkbox" class="category-group-item-check">
+                                    <i class="star-checked far fa-star"></i>
+                                    <i class="star-checked far fa-star"></i>
+                                    <i class="star-checked far fa-star"></i>
+                                    <i class="star-uncheck far fa-star"></i>
+                                    <i class="star-uncheck far fa-star"></i>
+                                </div>
+                                <div class="rating-star">
+                                    <input type="checkbox" class="category-group-item-check">
+                                    <i class="star-checked far fa-star"></i>
+                                    <i class="star-checked far fa-star"></i>
+                                    <i class="star-uncheck far fa-star"></i>
+                                    <i class="star-uncheck far fa-star"></i>
+                                    <i class="star-uncheck far fa-star"></i>
+                                </div>
+                                <div class="rating-star">
+                                    <input type="checkbox" class="category-group-item-check">
+                                    <i class="star-checked far fa-star"></i>
+                                    <i class="star-uncheck far fa-star"></i>
+                                    <i class="star-uncheck far fa-star"></i>
+                                    <i class="star-uncheck far fa-star"></i>
+                                    <i class="star-uncheck far fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="category-group">
+                                <div class="category-group-title">Dịch Vụ & Khuyến Mãi</div>
+                                <ul class="category-group-list">
+                                    <li class="category-group-item">
+                                        <input type="checkbox" class="category-group-item-check">
+                                        Freeship Xtra
+                                    </li>
+                                    <li class="category-group-item">
+                                        <input type="checkbox" class="category-group-item-check">
+                                        Hoàn xu Xtra
+                                    </li>
+                                    <li class="category-group-item">
+                                        <input type="checkbox" class="category-group-item-check">
+                                        Đang giảm giá
+                                    </li>
+                                    <li class="category-group-item">
+                                        <input type="checkbox" class="category-group-item-check">
+                                        Miễn phí vận chuyển
+                                    </li>
+                                    <li class="category-group-item">
+                                        <input type="checkbox" class="category-group-item-check">
+                                        Gì cũng rẻ
+                                    </li> 
+                                </ul>
+                            </div>
+                            <button class="btn btn--primary category-group-filter-btn category-group--margin">LÀM MỚI</button>
+                        </nav>
+                    </div>
+                    <div class="col l-10 m-12 c-12">
+                        
+                        <!-- home filter -->
+                        <div class="home-filter hide-on-mobile-tablet">
+<div class="home-filter-control">
+    <p class="home-filter-title">Sắp xếp theo</p>
+    <button class="btn btn--primary home-filter-btn" data-sort="popular">Phổ biến</button>
+    <button class="btn home-filter-btn" data-sort="newest">Mới nhất</button>
+    <button class="btn home-filter-btn" data-sort="best-selling">Bán chạy</button>
+    <div class="btn home-filter-sort">
+    <p class="home-filter-sort-btn">Giá</p>
+    <i class="fas fa-sort-amount-down-alt"></i>
+    <ul class="home-filter-sort-list">
+        <li>
+        <a href="#" class="home-filter-sort-item-link" data-sort="price-desc">
+            Giảm dần <i class="fas fa-sort-amount-down-alt"></i>
+        </a>
+        </li>
+        <li>
+        <a href="#" class="home-filter-sort-item-link" data-sort="price-asc">
+            Tăng dần <i class="fas fa-sort-amount-up-alt"></i>
+        </a>
+        </li>
+    </ul>
+    </div>
+</div>
+</div>
+
+                        <!-- home product -->
+                        <div class="home-product">
+                            <nav class="mobile-category">
+                                <ul class="mobile-category-list">
+                                    <li class="mobile-category-item">
+                                        <a href="#" class="mobile-category-item-link">Thiết bị mạng</a>
+                                    </li>
+                                    <li class="mobile-category-item">
+                                        <a href="#" class="mobile-category-item-link">Chuột và bàn phím</a>
+                                    </li>
+                                    <li class="mobile-category-item">
+                                        <a href="#" class="mobile-category-item-link">USB</a>
+                                    </li>
+                                    <li class="mobile-category-item">
+                                        <a href="#" class="mobile-category-item-link">Link kiện máy tính</a>
+                                    </li>
+                                    <li class="mobile-category-item">
+                                        <a href="#" class="mobile-category-item-link">Wifi</a>
+                                    </li>
+                                    <li class="mobile-category-item">
+                                        <a href="#" class="mobile-category-item-link">Ổ cứng</a>
+                                    </li>
+                                    <li class="mobile-category-item">
+                                        <a href="#" class="mobile-category-item-link">CD/DVD</a>
+                                    </li>
+                                    <li class="mobile-category-item">
+                                        <a href="#" class="mobile-category-item-link">Tai nghe</a>
+                                    </li>
+                                    <li class="mobile-category-item">
+                                        <a href="#" class="mobile-category-item-link">Lót chuột</a>
+                                    </li>
+                                    <li class="mobile-category-item">
+                                        <a href="#" class="mobile-category-item-link">Micro</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div id="list-product" class="row sm-gutter"></div>
+                            <!-- <div id="list-product" class="row sm-gutter">
+                                <div class="col l-2-4 m-3 c-6 home-product-item">
+                                    <a class="home-product-item-link" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/home/1.PNG);"></div>
+                                        <div class="home-product-item__info">
+                                            <h4 class="home-product-item__name">Ổ đĩa flash USB2.0 2TB Hp kim loại chống thấm nước</h4>
+                                            <div class="home-product-item__price">
+                                                <p class="home-product-item__price-old">180.000đ</p>
+                                                <p class="home-product-item__price-new">200.000đ</p>
+                                                <i class="home-product-item__ship fas fa-shipping-fast"></i>
+                                            </div>
+                                            <div class="home-product-item__footer">
+                                                <div class="home-product-item__save">
+                                                    <input type="checkbox" name="save-check" id="heart-save">
+                                                    <label for="heart-save" class="far fa-heart"></label>
+                                                </div>
+                                                <div class="home-product-item__rating-star">
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__saled">Đã bán 3,8k</div>
+                                            </div>
+                                            <div class="home-product-item__origin">Hà Nội</div>
+                                            <div class="home-product-item__favourite">
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <div class="home-product-item__sale-off-value">40%</div>
+                                                <div class="home-product-item__sale-off-label">GIẢM</div>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item-footer">Tìm sản phẩm tương tự</div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-3 c-6 home-product-item">
+                                    <a class="home-product-item-link" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/home/2.PNG);"></div>
+                                        <div class="home-product-item__info">
+                                            <h4 class="home-product-item__name">Ổ đĩa flash USB2.0 2TB Hp kim loại chống thấm nước</h4>
+                                            <div class="home-product-item__price">
+                                                <p class="home-product-item__price-old">300.000đ</p>
+                                                <p class="home-product-item__price-new">250.000đ</p>
+                                                <i class="home-product-item__ship fas fa-shipping-fast"></i>
+                                            </div>
+                                            <div class="home-product-item__footer">
+                                                <div class="home-product-item__save">
+                                                    <input type="checkbox" name="save-check" id="heart-save">
+                                                    <label for="heart-save" class="far fa-heart"></label>
+                                                </div>
+                                                <div class="home-product-item__rating-star">
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__saled">Đã bán 3,2k</div>
+                                            </div>
+                                            <div class="home-product-item__origin">Hà Nội</div>
+                                            <div class="home-product-item__favourite">
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <div class="home-product-item__sale-off-value">40%</div>
+                                                <div class="home-product-item__sale-off-label">GIẢM</div>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item-footer">Tìm sản phẩm tương tự</div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-3 c-6 home-product-item">
+                                    <a class="home-product-item-link" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/home/3.PNG);"></div>
+                                        <div class="home-product-item__info">
+                                            <h4 class="home-product-item__name">Ổ đĩa flash USB2.0 2TB Hp kim loại chống thấm nước</h4>
+                                            <div class="home-product-item__price">
+                                                <p class="home-product-item__price-old">150.000đ</p>
+                                                <p class="home-product-item__price-new">180.000đ</p>
+                                                <i class="home-product-item__ship fas fa-shipping-fast"></i>
+                                            </div>
+                                            <div class="home-product-item__footer">
+                                                <div class="home-product-item__save">
+                                                    <input type="checkbox" name="save-check" id="heart-save">
+                                                    <label for="heart-save" class="far fa-heart"></label>
+                                                </div>
+                                                <div class="home-product-item__rating-star">
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__saled">Đã bán 1,7k</div>
+                                            </div>
+                                            <div class="home-product-item__origin">Hà Nội</div>
+                                            <div class="home-product-item__favourite">
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <div class="home-product-item__sale-off-value">30%</div>
+                                                <div class="home-product-item__sale-off-label">GIẢM</div>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item-footer">Tìm sản phẩm tương tự</div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-3 c-6 home-product-item">
+                                    <a class="home-product-item-link" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/home/4.PNG);"></div>
+                                        <div class="home-product-item__info">
+                                            <h4 class="home-product-item__name">Ổ đĩa flash USB2.0 2TB Hp kim loại chống thấm nước</h4>
+                                            <div class="home-product-item__price">
+                                                <p class="home-product-item__price-old">350.000đ</p>
+                                                <p class="home-product-item__price-new">400.000đ</p>
+                                                <i class="home-product-item__ship fas fa-shipping-fast"></i>
+                                            </div>
+                                            <div class="home-product-item__footer">
+                                                <div class="home-product-item__save">
+                                                    <input type="checkbox" name="save-check" id="heart-save">
+                                                    <label for="heart-save" class="far fa-heart"></label>
+                                                </div>
+                                                <div class="home-product-item__rating-star">
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__saled">Đã bán 2,7k</div>
+                                            </div>
+                                            <div class="home-product-item__origin">Hà Nội</div>
+                                            <div class="home-product-item__favourite">
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                            <div class="home-product-item__sale-off-value">20%</div>
+                                                <div class="home-product-item__sale-off-label">GIẢM</div>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item-footer">Tìm sản phẩm tương tự</div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-3 c-6 home-product-item">
+                                    <a class="home-product-item-link" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/home/5.PNG);"></div>
+                                        <div class="home-product-item__info">
+                                            <h4 class="home-product-item__name">Ổ đĩa flash USB2.0 2TB Hp kim loại chống thấm nước</h4>
+                                            <div class="home-product-item__price">
+                                                <p class="home-product-item__price-old">270.000đ</p>
+                                                <p class="home-product-item__price-new">300.000đ</p>
+                                                <i class="home-product-item__ship fas fa-shipping-fast"></i>
+                                            </div>
+                                            <div class="home-product-item__footer">
+                                                <div class="home-product-item__save">
+                                                    <input type="checkbox" name="save-check" id="heart-save">
+                                                    <label for="heart-save" class="far fa-heart"></label>
+                                                </div>
+                                                <div class="home-product-item__rating-star">
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__saled">Đã bán 1,2k</div>
+                                            </div>
+                                            <div class="home-product-item__origin">Hà Nội</div>
+                                            <div class="home-product-item__favourite">
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <div class="home-product-item__sale-off-value">20%</div>
+                                                <div class="home-product-item__sale-off-label">GIẢM</div>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item-footer">Tìm sản phẩm tương tự</div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-3 c-6 home-product-item">
+                                    <a class="home-product-item-link" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/home/6.PNG);"></div>
+                                        <div class="home-product-item__info">
+                                            <h4 class="home-product-item__name">Ổ đĩa flash USB2.0 2TB Hp kim loại chống thấm nước</h4>
+                                            <div class="home-product-item__price">
+                                                <p class="home-product-item__price-old">160.000đ</p>
+                                                <p class="home-product-item__price-new">220.000đ</p>
+                                                <i class="home-product-item__ship fas fa-shipping-fast"></i>
+                                            </div>
+                                            <div class="home-product-item__footer">
+                                                <div class="home-product-item__save">
+                                                    <input type="checkbox" name="save-check" id="heart-save">
+                                                    <label for="heart-save" class="far fa-heart"></label>
+                                                </div>
+                                                <div class="home-product-item__rating-star">
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__saled">Đã bán 2,3k</div>
+                                            </div>
+                                            <div class="home-product-item__origin">Hà Nội</div>
+                                            <div class="home-product-item__favourite">
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <div class="home-product-item__sale-off-value">25%</div>
+                                                <div class="home-product-item__sale-off-label">GIẢM</div>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item-footer">Tìm sản phẩm tương tự</div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-3 c-6 home-product-item">
+                                    <a class="home-product-item-link" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/home/7.PNG);"></div>
+                                        <div class="home-product-item__info">
+                                            <h4 class="home-product-item__name">Ổ đĩa flash USB2.0 2TB Hp kim loại chống thấm nước</h4>
+                                            <div class="home-product-item__price">
+                                                <p class="home-product-item__price-old">195.000đ</p>
+                                                <p class="home-product-item__price-new">250.000đ</p>
+                                                <i class="home-product-item__ship fas fa-shipping-fast"></i>
+                                            </div>
+                                            <div class="home-product-item__footer">
+                                                <div class="home-product-item__save">
+                                                    <input type="checkbox" name="save-check" id="heart-save">
+                                                    <label for="heart-save" class="far fa-heart"></label>
+                                                </div>
+                                                <div class="home-product-item__rating-star">
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__saled">Đã bán 1,1k</div>
+                                            </div>
+                                            <div class="home-product-item__origin">Hà Nội</div>
+                                            <div class="home-product-item__favourite">
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <div class="home-product-item__sale-off-value">15%</div>
+                                                <div class="home-product-item__sale-off-label">GIẢM</div>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item-footer">Tìm sản phẩm tương tự</div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-3 c-6 home-product-item">
+                                    <a class="home-product-item-link" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/home/8.PNG);"></div>
+                                        <div class="home-product-item__info">
+                                            <h4 class="home-product-item__name">Ổ đĩa flash USB2.0 2TB Hp kim loại chống thấm nước</h4>
+                                            <div class="home-product-item__price">
+                                                <p class="home-product-item__price-old">360.000đ</p>
+                                                <p class="home-product-item__price-new">420.000đ</p>
+                                                <i class="home-product-item__ship fas fa-shipping-fast"></i>
+                                            </div>
+                                            <div class="home-product-item__footer">
+                                                <div class="home-product-item__save">
+                                                    <input type="checkbox" name="save-check" id="heart-save">
+                                                    <label for="heart-save" class="far fa-heart"></label>
+                                                </div>
+                                                <div class="home-product-item__rating-star">
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__saled">Đã bán 1,9k</div>
+                                            </div>
+                                            <div class="home-product-item__origin">Hà Nội</div>
+                                            <div class="home-product-item__favourite">
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <div class="home-product-item__sale-off-value">20%</div>
+                                                <div class="home-product-item__sale-off-label">GIẢM</div>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item-footer">Tìm sản phẩm tương tự</div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-3 c-6 home-product-item">
+                                    <a class="home-product-item-link" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/home/9.PNG);"></div>
+                                        <div class="home-product-item__info">
+                                            <h4 class="home-product-item__name">Ổ đĩa flash USB2.0 2TB Hp kim loại chống thấm nước</h4>
+                                            <div class="home-product-item__price">
+                                                <p class="home-product-item__price-old">130.000đ</p>
+                                                <p class="home-product-item__price-new">170.000đ</p>
+                                                <i class="home-product-item__ship fas fa-shipping-fast"></i>
+                                            </div>
+                                            <div class="home-product-item__footer">
+                                                <div class="home-product-item__save">
+                                                    <input type="checkbox" name="save-check" id="heart-save">
+                                                    <label for="heart-save" class="far fa-heart"></label>
+                                                </div>
+                                                <div class="home-product-item__rating-star">
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__saled">Đã bán 3,1k</div>
+                                            </div>
+                                            <div class="home-product-item__origin">Hà Nội</div>
+                                            <div class="home-product-item__favourite">
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <div class="home-product-item__sale-off-value">50%</div>
+                                                <div class="home-product-item__sale-off-label">GIẢM</div>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item-footer">Tìm sản phẩm tương tự</div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-3 c-6 home-product-item">
+                                    <a class="home-product-item-link" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/home/10.PNG);"></div>
+                                        <div class="home-product-item__info">
+                                            <h4 class="home-product-item__name">Ổ đĩa flash USB2.0 2TB Hp kim loại chống thấm nước</h4>
+                                            <div class="home-product-item__price">
+                                                <p class="home-product-item__price-old">180.000đ</p>
+                                                <p class="home-product-item__price-new">200.000đ</p>
+                                                <i class="home-product-item__ship fas fa-shipping-fast"></i>
+                                            </div>
+                                            <div class="home-product-item__footer">
+                                                <div class="home-product-item__save">
+                                                    <input type="checkbox" name="save-check" id="heart-save">
+                                                    <label for="heart-save" class="far fa-heart"></label>
+                                                </div>
+                                                <div class="home-product-item__rating-star">
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__saled">Đã bán 3,8k</div>
+                                            </div>
+                                            <div class="home-product-item__origin">Hà Nội</div>
+                                            <div class="home-product-item__favourite">
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <div class="home-product-item__sale-off-value">40%</div>
+                                                <div class="home-product-item__sale-off-label">GIẢM</div>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item-footer">Tìm sản phẩm tương tự</div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-3 c-6 home-product-item">
+                                    <a class="home-product-item-link" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/home/11.PNG);"></div>
+                                        <div class="home-product-item__info">
+                                            <h4 class="home-product-item__name">Ổ đĩa flash USB2.0 2TB Hp kim loại chống thấm nước</h4>
+                                            <div class="home-product-item__price">
+                                                <p class="home-product-item__price-old">180.000đ</p>
+                                                <p class="home-product-item__price-new">200.000đ</p>
+                                                <i class="home-product-item__ship fas fa-shipping-fast"></i>
+                                            </div>
+                                            <div class="home-product-item__footer">
+                                                <div class="home-product-item__save">
+                                                    <input type="checkbox" name="save-check" id="heart-save">
+                                                    <label for="heart-save" class="far fa-heart"></label>
+                                                </div>
+                                                <div class="home-product-item__rating-star">
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__saled">Đã bán 3,8k</div>
+                                            </div>
+                                            <div class="home-product-item__origin">Hà Nội</div>
+                                            <div class="home-product-item__favourite">
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <div class="home-product-item__sale-off-value">40%</div>
+                                                <div class="home-product-item__sale-off-label">GIẢM</div>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item-footer">Tìm sản phẩm tương tự</div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-3 c-6 home-product-item">
+                                    <a class="home-product-item-link" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/home/12.PNG);"></div>
+                                        <div class="home-product-item__info">
+                                            <h4 class="home-product-item__name">Ổ đĩa flash USB2.0 2TB Hp kim loại chống thấm nước</h4>
+                                            <div class="home-product-item__price">
+                                                <p class="home-product-item__price-old">180.000đ</p>
+                                                <p class="home-product-item__price-new">200.000đ</p>
+                                                <i class="home-product-item__ship fas fa-shipping-fast"></i>
+                                            </div>
+                                            <div class="home-product-item__footer">
+                                                <div class="home-product-item__save">
+                                                    <input type="checkbox" name="save-check" id="heart-save">
+                                                    <label for="heart-save" class="far fa-heart"></label>
+                                                </div>
+                                                <div class="home-product-item__rating-star">
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__saled">Đã bán 3,8k</div>
+                                            </div>
+                                            <div class="home-product-item__origin">Hà Nội</div>
+                                            <div class="home-product-item__favourite">
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <div class="home-product-item__sale-off-value">40%</div>
+                                                <div class="home-product-item__sale-off-label">GIẢM</div>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item-footer">Tìm sản phẩm tương tự</div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-3 c-6 home-product-item">
+                                    <a class="home-product-item-link" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/home/13.PNG);"></div>
+                                        <div class="home-product-item__info">
+                                            <h4 class="home-product-item__name">Ổ đĩa flash USB2.0 2TB Hp kim loại chống thấm nước</h4>
+                                            <div class="home-product-item__price">
+                                                <p class="home-product-item__price-old">180.000đ</p>
+                                                <p class="home-product-item__price-new">200.000đ</p>
+                                                <i class="home-product-item__ship fas fa-shipping-fast"></i>
+                                            </div>
+                                            <div class="home-product-item__footer">
+                                                <div class="home-product-item__save">
+                                                    <input type="checkbox" name="save-check" id="heart-save">
+                                                    <label for="heart-save" class="far fa-heart"></label>
+                                                </div>
+                                                <div class="home-product-item__rating-star">
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__saled">Đã bán 3,8k</div>
+                                            </div>
+                                            <div class="home-product-item__origin">Hà Nội</div>
+                                            <div class="home-product-item__favourite">
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <div class="home-product-item__sale-off-value">40%</div>
+                                                <div class="home-product-item__sale-off-label">GIẢM</div>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item-footer">Tìm sản phẩm tương tự</div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-3 c-6 home-product-item">
+                                    <a class="home-product-item-link" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/home/14.PNG);"></div>
+                                        <div class="home-product-item__info">
+                                            <h4 class="home-product-item__name">Ổ đĩa flash USB2.0 2TB Hp kim loại chống thấm nước</h4>
+                                            <div class="home-product-item__price">
+                                                <p class="home-product-item__price-old">180.000đ</p>
+                                                <p class="home-product-item__price-new">200.000đ</p>
+                                                <i class="home-product-item__ship fas fa-shipping-fast"></i>
+                                            </div>
+                                            <div class="home-product-item__footer">
+                                                <div class="home-product-item__save">
+                                                    <input type="checkbox" name="save-check" id="heart-save">
+                                                    <label for="heart-save" class="far fa-heart"></label>
+                                                </div>
+                                                <div class="home-product-item__rating-star">
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__saled">Đã bán 3,8k</div>
+                                            </div>
+                                            <div class="home-product-item__origin">Hà Nội</div>
+                                            <div class="home-product-item__favourite">
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <div class="home-product-item__sale-off-value">40%</div>
+                                                <div class="home-product-item__sale-off-label">GIẢM</div>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item-footer">Tìm sản phẩm tương tự</div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-3 c-6 home-product-item">
+                                    <a class="home-product-item-link" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/home/15.PNG);"></div>
+                                        <div class="home-product-item__info">
+                                            <h4 class="home-product-item__name">Ổ đĩa flash USB2.0 2TB Hp kim loại chống thấm nước</h4>
+                                            <div class="home-product-item__price">
+                                                <p class="home-product-item__price-old">180.000đ</p>
+                                                <p class="home-product-item__price-new">200.000đ</p>
+                                                <i class="home-product-item__ship fas fa-shipping-fast"></i>
+                                            </div>
+                                            <div class="home-product-item__footer">
+                                                <div class="home-product-item__save">
+                                                    <input type="checkbox" name="save-check" id="heart-save">
+                                                    <label for="heart-save" class="far fa-heart"></label>
+                                                </div>
+                                                <div class="home-product-item__rating-star">
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__saled">Đã bán 3,8k</div>
+                                            </div>
+                                            <div class="home-product-item__origin">Hà Nội</div>
+                                            <div class="home-product-item__favourite">
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <div class="home-product-item__sale-off-value">40%</div>
+                                                <div class="home-product-item__sale-off-label">GIẢM</div>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item-footer">Tìm sản phẩm tương tự</div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-3 c-6 home-product-item">
+                                    <a class="home-product-item-link" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/home/16.PNG);"></div>
+                                        <div class="home-product-item__info">
+                                            <h4 class="home-product-item__name">Ổ đĩa flash USB2.0 2TB Hp kim loại chống thấm nước</h4>
+                                            <div class="home-product-item__price">
+                                                <p class="home-product-item__price-old">180.000đ</p>
+                                                <p class="home-product-item__price-new">200.000đ</p>
+                                                <i class="home-product-item__ship fas fa-shipping-fast"></i>
+                                            </div>
+                                            <div class="home-product-item__footer">
+                                                <div class="home-product-item__save">
+                                                    <input type="checkbox" name="save-check" id="heart-save">
+                                                    <label for="heart-save" class="far fa-heart"></label>
+                                                </div>
+                                                <div class="home-product-item__rating-star">
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__saled">Đã bán 3,8k</div>
+                                            </div>
+                                            <div class="home-product-item__origin">Hà Nội</div>
+                                            <div class="home-product-item__favourite">
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <div class="home-product-item__sale-off-value">40%</div>
+                                                <div class="home-product-item__sale-off-label">GIẢM</div>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item-footer">Tìm sản phẩm tương tự</div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-3 c-6 home-product-item">
+                                    <a class="home-product-item-link" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/home/17.PNG);"></div>
+                                        <div class="home-product-item__info">
+                                            <h4 class="home-product-item__name">Jack BNC lò xo cho dây tín hiệu đồng trục camera</h4>
+                                            <div class="home-product-item__price">
+                                                <p class="home-product-item__price-old">170.000đ</p>
+                                                <p class="home-product-item__price-new">210.000đ</p>
+                                                <i class="home-product-item__ship fas fa-shipping-fast"></i>
+                                            </div>
+                                            <div class="home-product-item__footer">
+                                                <div class="home-product-item__save">
+                                                    <input type="checkbox" name="save-check" id="heart-save">
+                                                    <label for="heart-save" class="far fa-heart"></label>
+                                                </div>
+                                                <div class="home-product-item__rating-star">
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__saled">Đã bán 1,1k</div>
+                                            </div>
+                                            <div class="home-product-item__origin">Hà Nội</div>
+                                            <div class="home-product-item__favourite">
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <div class="home-product-item__sale-off-value">30%</div>
+                                                <div class="home-product-item__sale-off-label">GIẢM</div>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item-footer">Tìm sản phẩm tương tự</div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-3 c-6 home-product-item">
+                                    <a class="home-product-item-link" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/home/18.PNG);"></div>
+                                        <div class="home-product-item__info">
+                                            <h4 class="home-product-item__name">Pin TCbest AA và AAA cho chuột không dây và điều khiển giao ngẫu nhiên</h4>
+                                            <div class="home-product-item__price">
+                                                <p class="home-product-item__price-old">50.000đ</p>
+                                                <p class="home-product-item__price-new">70.000đ</p>
+                                                <i class="home-product-item__ship fas fa-shipping-fast"></i>
+                                            </div>
+                                            <div class="home-product-item__footer">
+                                                <div class="home-product-item__save">
+                                                    <input type="checkbox" name="save-check" id="heart-save">
+                                                    <label for="heart-save" class="far fa-heart"></label>
+                                                </div>
+                                                <div class="home-product-item__rating-star">
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__saled">Đã bán 5,6k</div>
+                                            </div>
+                                            <div class="home-product-item__origin">Hà Nội</div>
+                                            <div class="home-product-item__favourite">
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <div class="home-product-item__sale-off-value">10%</div>
+                                                <div class="home-product-item__sale-off-label">GIẢM</div>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item-footer">Tìm sản phẩm tương tự</div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-3 c-6 home-product-item">
+                                    <a class="home-product-item-link" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/home/19.PNG);"></div>
+                                        <div class="home-product-item__info">
+                                            <h4 class="home-product-item__name">Màn Hình Máy Tính 24 inch/19inch AOC,Màn Hình 75HZ Full HD 1920*1080</h4>
+                                            <div class="home-product-item__price">
+                                                <p class="home-product-item__price-old">2.100.000đ</p>
+                                                <p class="home-product-item__price-new">3.000.000đ</p>
+                                                <i class="home-product-item__ship fas fa-shipping-fast"></i>
+                                            </div>
+                                            <div class="home-product-item__footer">
+                                                <div class="home-product-item__save">
+                                                    <input type="checkbox" name="save-check" id="heart-save">
+                                                    <label for="heart-save" class="far fa-heart"></label>
+                                                </div>
+                                                <div class="home-product-item__rating-star">
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__saled">Đã bán 1,1k</div>
+                                            </div>
+                                            <div class="home-product-item__origin">Hà Nội</div>
+                                            <div class="home-product-item__favourite">
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <div class="home-product-item__sale-off-value">36%</div>
+                                                <div class="home-product-item__sale-off-label">GIẢM</div>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item-footer">Tìm sản phẩm tương tự</div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-3 c-6 home-product-item">
+                                    <a class="home-product-item-link" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/home/20.PNG);"></div>
+                                        <div class="home-product-item__info">
+                                            <h4 class="home-product-item__name">Webcam Máy Tính-Latop-Có Mic Full HD-Camera</h4>
+                                            <div class="home-product-item__price">
+                                                <p class="home-product-item__price-old">350.000đ</p>
+                                                <p class="home-product-item__price-new">400.000đ</p>
+                                                <i class="home-product-item__ship fas fa-shipping-fast"></i>
+                                            </div>
+                                            <div class="home-product-item__footer">
+                                                <div class="home-product-item__save">
+                                                    <input type="checkbox" name="save-check" id="heart-save">
+                                                    <label for="heart-save" class="far fa-heart"></label>
+                                                </div>
+                                                <div class="home-product-item__rating-star">
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__saled">Đã bán 2,7k</div>
+                                            </div>
+                                            <div class="home-product-item__origin">Hà Nội</div>
+                                            <div class="home-product-item__favourite">
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <div class="home-product-item__sale-off-value">20%</div>
+                                                <div class="home-product-item__sale-off-label">GIẢM</div>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item-footer">Tìm sản phẩm tương tự</div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-3 c-6 home-product-item">
+                                    <a class="home-product-item-link" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/home/21.PNG);"></div>
+                                        <div class="home-product-item__info">
+                                            <h4 class="home-product-item__name">Loa máy tính để bàn,loa vi tính MC D - 221 SUPER BASS</h4>
+                                            <div class="home-product-item__price">
+                                                <p class="home-product-item__price-old">270.000đ</p>
+                                                <p class="home-product-item__price-new">300.000đ</p>
+                                                <i class="home-product-item__ship fas fa-shipping-fast"></i>
+                                            </div>
+                                            <div class="home-product-item__footer">
+                                                <div class="home-product-item__save">
+                                                    <input type="checkbox" name="save-check" id="heart-save">
+                                                    <label for="heart-save" class="far fa-heart"></label>
+                                                </div>
+                                                <div class="home-product-item__rating-star">
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__saled">Đã bán 1,2k</div>
+                                            </div>
+                                            <div class="home-product-item__origin">Hà Nội</div>
+                                            <div class="home-product-item__favourite">
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <div class="home-product-item__sale-off-value">25%</div>
+                                                <div class="home-product-item__sale-off-label">GIẢM</div>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item-footer">Tìm sản phẩm tương tự</div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-3 c-6 home-product-item">
+                                    <a class="home-product-item-link" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/home/22.PNG);"></div>
+                                        <div class="home-product-item__info">
+                                            <h4 class="home-product-item__name">Loa SIÊU TRẦM (SUB BASS): 8W, cường độ âm thanh >80dB</h4>
+                                            <div class="home-product-item__price">
+                                                <p class="home-product-item__price-old">160.000đ</p>
+                                                <p class="home-product-item__price-new">185.000đ</p>
+                                                <i class="home-product-item__ship fas fa-shipping-fast"></i>
+                                            </div>
+                                            <div class="home-product-item__footer">
+                                                <div class="home-product-item__save">
+                                                    <input type="checkbox" name="save-check" id="heart-save">
+                                                    <label for="heart-save" class="far fa-heart"></label>
+                                                </div>
+                                                <div class="home-product-item__rating-star">
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__saled">Đã bán 2,3k</div>
+                                            </div>
+                                            <div class="home-product-item__origin">Hà Nội</div>
+                                            <div class="home-product-item__favourite">
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <div class="home-product-item__sale-off-value">23%</div>
+                                                <div class="home-product-item__sale-off-label">GIẢM</div>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item-footer">Tìm sản phẩm tương tự</div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-3 c-6 home-product-item">
+                                    <a class="home-product-item-link" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/home/23.PNG);"></div>
+                                        <div class="home-product-item__info">
+                                            <h4 class="home-product-item__name">Bàn Phím Gaming Có Led 7 Màu-Bàn Phím G21 Kèm Chuột-Lót Chuột</h4>
+                                            <div class="home-product-item__price">
+                                                <p class="home-product-item__price-old">195.000đ</p>
+                                                <p class="home-product-item__price-new">230.000đ</p>
+                                                <i class="home-product-item__ship fas fa-shipping-fast"></i>
+                                            </div>
+                                            <div class="home-product-item__footer">
+                                                <div class="home-product-item__save">
+                                                    <input type="checkbox" name="save-check" id="heart-save">
+                                                    <label for="heart-save" class="far fa-heart"></label>
+                                                </div>
+                                                <div class="home-product-item__rating-star">
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__saled">Đã bán 1,1k</div>
+                                            </div>
+                                            <div class="home-product-item__origin">Hà Nội</div>
+                                            <div class="home-product-item__favourite">
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <div class="home-product-item__sale-off-value">15%</div>
+                                                <div class="home-product-item__sale-off-label">GIẢM</div>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item-footer">Tìm sản phẩm tương tự</div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-3 c-6 home-product-item">
+                                    <a class="home-product-item-link" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/home/24.PNG);"></div>
+                                        <div class="home-product-item__info">
+                                            <h4 class="home-product-item__name">Bàn phím Gaming, Keyboard T-WOLF TF20 Led 7 màu USB</h4>
+                                            <div class="home-product-item__price">
+                                                <p class="home-product-item__price-old">360.000đ</p>
+                                                <p class="home-product-item__price-new">420.000đ</p>
+                                                <i class="home-product-item__ship fas fa-shipping-fast"></i>
+                                            </div>
+                                            <div class="home-product-item__footer">
+                                                <div class="home-product-item__save">
+                                                    <input type="checkbox" name="save-check" id="heart-save">
+                                                    <label for="heart-save" class="far fa-heart"></label>
+                                                </div>
+                                                <div class="home-product-item__rating-star">
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__saled">Đã bán 1,9k</div>
+                                            </div>
+                                            <div class="home-product-item__origin">Hà Nội</div>
+                                            <div class="home-product-item__favourite">
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <div class="home-product-item__sale-off-value">20%</div>
+                                                <div class="home-product-item__sale-off-label">GIẢM</div>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item-footer">Tìm sản phẩm tương tự</div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-3 c-6 home-product-item">
+                                    <a class="home-product-item-link" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/home/25.PNG);"></div>
+                                        <div class="home-product-item__info">
+                                            <h4 class="home-product-item__name">CHUỘT KHÔNG DÂY T- WOLF Q13 CHUỘT GAMING</h4>
+                                            <div class="home-product-item__price">
+                                                <p class="home-product-item__price-old">135.000đ</p>
+                                                <p class="home-product-item__price-new">170.000đ</p>
+                                                <i class="home-product-item__ship fas fa-shipping-fast"></i>
+                                            </div>
+                                            <div class="home-product-item__footer">
+                                                <div class="home-product-item__save">
+                                                    <input type="checkbox" name="save-check" id="heart-save">
+                                                    <label for="heart-save" class="far fa-heart"></label>
+                                                </div>
+                                                <div class="home-product-item__rating-star">
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                    <i class="star-checked far fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__saled">Đã bán 3,1k</div>
+                                            </div>
+                                            <div class="home-product-item__origin">Hà Nội</div>
+                                            <div class="home-product-item__favourite">
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <div class="home-product-item__sale-off-value">50%</div>
+                                                <div class="home-product-item__sale-off-label">GIẢM</div>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item-footer">Tìm sản phẩm tương tự</div>
+                                    </a>
+                                </div>
+                            </div> -->
+                        </div>
+                        <!-- pagination -->
+                        <ul class="pagination home-product-pagination">
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item-link pagination-item-link--disable">
+                                    <i class="fas fa-chevron-left"></i>
+                                </a>
+                            </li>
+                            <li class="pagination-item pagination-item--active">
+                                <a href="#" class="pagination-item-link">1</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item-link">2</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item-link">3</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a class="pagination-item-link pagination-item-link--disable">. . .</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item-link">8</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item-link">
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer class="footer">
+            <!-- main footer -->
+            <div class="main-footer">
+                <div class="grid wide">
+                        <div class="row sm-gutter main-footer-info">
+                            <div class="col l-2-4 m-4 c-6">
+                                <h3 class="footer__heading">CHĂM SÓC KHÁCH HÀNG</h3>
+                                <ul class="footer-list">
+                                    <li>
+                                        <a href="#" class="footer-item-link">Trung Tâm Trợ Giúp</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-item-link">NQ - Shop Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-item-link">NQ - Shop Mall</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-item-link">Hướng Dẫn Mua Hàng</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-item-link">Hướng Dẫn Bán Hàng</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-item-link">Thanh Toán</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-item-link">NQ - Shop Xu</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-item-link">Vận Chuyển</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-item-link">Trả Hàng & Hoàn Tiền</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-item-link">Chăm Sóc Khách Hàng</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-item-link">Chính Sách Bảo Hành</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col l-2-4 m-4 c-6">
+                                <h3 class="footer__heading">VỀ NQ - Shop</h3>
+                                <ul class="footer-list">
+                                    <li>
+                                        <a href="#" class="footer-item-link">Giới Thiệu Về NQ - Shop Việt Nam</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-item-link">Tuyển Dụng</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-item-link">Điều Khoản NQ - Shop</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-item-link">Chính Sách Bảo Mật</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-item-link">Chính Hãng</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-item-link">Kênh Người Bán</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-item-link">Flash Sales</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-item-link">Chương Trình Tiếp Thị Liên Kết NQ - Shop</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-item-link">Liên Hệ Với Truyền Thông</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col l-2-4 m-4 c-12 pay-and-ship">
+                                <div>
+                                    <h3 class="footer__heading">THANH TOÁN</h3>
+                                    <div class="footer-sale-ship">
+                                        <img src="./assets/img/pay/1.PNG" class="footer-item-sale-ship">
+                                        <img src="./assets/img/pay/2.PNG" class="footer-item-sale-ship">
+                                        <img src="./assets/img/pay/3.PNG" class="footer-item-sale-ship">
+                                        <img src="./assets/img/pay/4.PNG" class="footer-item-sale-ship">
+                                        <img src="./assets/img/pay/5.PNG" class="footer-item-sale-ship">                                
+                                    </div>
+                                </div>
+                                <div>
+                                    <h3 class="footer__heading">ĐƠN VỊ VẬN CHUYỂN</h3>
+                                    <div class="footer-sale-ship">
+                                        <img src="./assets/img/ship/1.PNG" class="footer-item-sale-ship">
+                                        <img src="./assets/img/ship/2.PNG" class="footer-item-sale-ship">
+                                        <img src="./assets/img/ship/3.PNG" class="footer-item-sale-ship">
+                                        <img src="./assets/img/ship/4.PNG" class="footer-item-sale-ship">
+                                        <img src="./assets/img/ship/5.PNG" class="footer-item-sale-ship">
+                                        <img src="./assets/img/ship/6.PNG" class="footer-item-sale-ship">
+                                        <img src="./assets/img/ship/7.PNG" class="footer-item-sale-ship">
+                                        <img src="./assets/img/ship/8.PNG" class="footer-item-sale-ship">
+                                        <img src="./assets/img/ship/9.PNG" class="footer-item-sale-ship">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-4 c-6">
+                                <h3 class="footer__heading">THEO DÕI CHÚNG TÔI</h3>
+                                <ul class="footer-list">
+                                    <li>
+                                        <a href="#" class="footer-item-link footer-item-link-fb">
+                                            <i class="footer-item-icon fab fa-facebook-square"></i>
+                                            Facebook
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-item-link footer-item-link-is">
+                                            <i class="footer-item-icon fab fa-instagram-square"></i>
+                                            Instagram
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-item-link footer-item-link-li">
+                                            <i class="footer-item-icon fab fa-linkedin"></i>
+                                            LinkedIn
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col l-2-4 m-8 c-6">
+                                <h3 class="footer__heading">TẢI ỨNG DỤNG NQ - Shop</h3>
+                                <div class="footer-download">
+                                    <a href="#" class="footer-download-link">
+                                        <img src="./assets/img/qr/qr-code.png" class="footer-download-qr">
+                                    </a>
+                                    <div class="footer-download-app">
+                                        <a href="#" class="footer-download-link">
+                                            <img src="./assets/img/qr/gg-play.png" class="footer-download-app-img">
+                                        </a>
+                                        <a href="#" class="footer-download-link">
+                                            <img src="./assets/img/qr/app-store.png" class="footer-download-app-img">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- copyright -->
+                    <div class="row">
+                        <div class="grid">
+                            <p class="copyright-title">
+                                © 2025 - Bản quyền thuộc về Công ty TNHH Nova Quest
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- other footer -->
+            <div class="other-footer">
+                <div class="grid wide">
+                    <div class="row other-footer-heading">
+                        <div class="col l-2">
+                            <a href="#" class="other-footer-link">
+                                CHÍNH SÁCH BẢO MẬT
+                            </a>
+                        </div>
+                        <div class="col l-2">
+                            <a href="#" class="other-footer-link">
+                                QUY CHẾ HOẠT ĐỘNG
+                            </a>
+                        </div>
+                        <div class="col l-2">
+                            <a href="#" class="other-footer-link">
+                                CHÍNH SÁCH VẬN CHUYỂN
+                            </a>
+                        </div>
+                        <div class="col l-2">
+                            <a href="#" class="other-footer-link">
+                                TRẢ HÀNG VÀ HOÀN TIỀN
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="grid other-footer-info">
+                            <p class="other-footer-title">Thông tin về NQ - Shop</p>
+                            <p class="other-footer-more">
+                                Địa chỉ: Số 54 đường Bình Kỳ,
+                                Phường Hòa Quý, Quận Ngũ Hành Sơn, Thành phố Đà Nẵng, Việt Nam.
+                                Tổng đài hỗ trợ: 0707698906 - Email: nhatquang09012006@gmail.com
+                            </p>
+                            <p class="other-footer-more">
+                                Chịu trách nhiệm quản lí nội dung: Phan Ngô Nhật Quang -
+                                Điện thoại liên hệ: 0707698906
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+        <!-- Modal Layout -->
+<!-- Nút mở modal -->
+
+
+<!-- Modal Layout -->
+<div id="auth-modal" class="modal">
+<div class="modal__overlay"></div>
+<div class="modal__body">
+
+    <!-- Register form -->
+    <div id="register-form" class="auth-form">
+    <div class="auth-form__container">
+        <div class="auth-form__header">
+        <h3 class="auth-form__heading">Đăng ký</h3>
+        <span id="to-login" class="auth-form__switch-btn">Đăng nhập</span>
+        </div>
+
+        <div class="auth-form__form">
+        <div class="auth-form__group">
+            <input type="text" class="auth-form__input" placeholder="Email của bạn">
+        </div>
+        <div class="auth-form__group">
+            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+        </div>
+        <div class="auth-form__group">
+            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+        </div>
+        </div>
+
+        <div class="auth-form__aside">
+        <p class="auth-form__policy-text">
+            Bằng việc đăng kí, bạn đã đồng ý với NQ - Shop về
+            <a href="#" class="auth-form__text-link">Điều khoản dịch vụ</a> &
+            <a href="#" class="auth-form__text-link">Chính sách bảo mật</a>
+        </p>
+        </div>
+
+        <div class="auth-form__controls">
+        <button class="btn auth-form__back btn--normal">TRỞ LẠI</button>
+        <button class="btn btn--primary">ĐĂNG KÝ</button>
+        </div>
+    </div>
+
+    <div class="auth-form__socials">
+        <a href="#" class="auth-form__socials--facebook btn btn--size-s btn__width-icon">
+        <i class="auth-form__socials-icon fa-brands fa-square-facebook"></i>
+        <span class="auth-form__socials-title">Kết nối với Facebook</span>
+        </a>
+        <a href="#" class="auth-form__socials--google btn btn--size-s btn__width-icon">
+        <i class="auth-form__socials-icon fa-brands fa-google"></i>
+        <span class="auth-form__socials-title">Kết nối với Google</span>
+        </a>
+    </div>
+    </div>
+
+    <!-- Login form -->
+    <div id="login-form" class="auth-form">
+    <div class="auth-form__container">
+        <div class="auth-form__header">
+        <h3 class="auth-form__heading">Đăng nhập</h3>
+        <span id="to-register" class="auth-form__switch-btn">Đăng ký</span>
+        </div>
+
+        <div class="auth-form__form">
+        <div class="auth-form__group">
+            <input type="text" class="auth-form__input" placeholder="Email của bạn">
+        </div>
+        <div class="auth-form__group">
+            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+        </div>
+        </div>
+
+        <div class="auth-form__aside">
+        <div class="auth-form__help">
+            <a href="#" class="auth-form__help-link auth-form__help-forgot">Quên mật khẩu</a>
+            <span class="auth-form__help-separate"></span>
+            <a href="#" class="auth-form__help-link">Cần trợ giúp?</a>
+        </div>
+        </div>
+
+        <div class="auth-form__controls">
+        <button class="btn auth-form__back btn--normal">TRỞ LẠI</button>
+        <button class="btn btn--primary">ĐĂNG NHẬP</button>
+        </div>
+    </div>
+
+    <div class="auth-form__socials">
+        <a href="#" class="auth-form__socials--facebook btn btn--size-s btn__width-icon">
+        <i class="auth-form__socials-icon fa-brands fa-square-facebook"></i>
+        <span class="auth-form__socials-title">Kết nối với Facebook</span>
+        </a>
+        <a href="#" class="auth-form__socials--google btn btn--size-s btn__width-icon">
+        <i class="auth-form__socials-icon fa-brands fa-google"></i>
+        <span class="auth-form__socials-title">Kết nối với Google</span>
+        </a>
+    </div>
+    </div>
+
+</div>
+</div>
+
+    <!-- script js -->
+    <script src="./assets/js/product.js"></script>
+</body>
+</html>
