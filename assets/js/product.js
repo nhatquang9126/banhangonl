@@ -211,61 +211,61 @@ function renderItem(items) {
 
     // catagory
 
-// var homeFilter = document.querySelectorAll('.home-filter-btn');
+var homeFilter = document.querySelectorAll('.home-filter-btn');
 
-// for (var i = 0; i < homeFilter.length; i++) {
-//     homeFilter[i].onclick = function () {
-//         var current = document.querySelector('.home-filter-btn.btn--primary');
-//         if (current) current.classList.remove('btn--primary');
-//         this.classList.add('btn--primary');
+for (var i = 0; i < homeFilter.length; i++) {
+    homeFilter[i].onclick = function () {
+        var current = document.querySelector('.home-filter-btn.btn--primary');
+        if (current) current.classList.remove('btn--primary');
+        this.classList.add('btn--primary');
 
-//         const sortType = this.dataset.sort;
-//         shuffer(sortType);
-//     };
-// }
+        const sortType = this.dataset.sort;
+        shuffer(sortType);
+    };
+}
 
-// var homeFilterSort = document.querySelectorAll('.home-filter-sort-item-link');
+var homeFilterSort = document.querySelectorAll('.home-filter-sort-item-link');
 
-// for (var i = 0; i < homeFilterSort.length; i++) {
-//     homeFilterSort[i].onclick = function (e) {
-//         e.preventDefault();
-//         const sortType = this.dataset.sort;
-//         shuffer(sortType);
-//     };
-// }
+for (var i = 0; i < homeFilterSort.length; i++) {
+    homeFilterSort[i].onclick = function (e) {
+        e.preventDefault();
+        const sortType = this.dataset.sort;
+        shuffer(sortType);
+    };
+}
 
-// function shuffer(sortType = '') {
-//     let sorted = [...products]; // danh sách sản phẩm
+function shuffer(sortType = '') {
+    let sorted = [...products]; // danh sách sản phẩm
 
-//     const parsePrice = (p) => Number(p.replace(/\./g, ''));
-//     const parseSaled = (s) => parseFloat(s.replace(',', '.')) * 1000;
+    const parsePrice = (p) => Number(p.replace(/\./g, ''));
+    const parseSaled = (s) => parseFloat(s.replace(',', '.')) * 1000;
 
-//     if (sortType === 'price-asc') {
-//         sorted.sort((a, b) => parsePrice(a.newPrice) - parsePrice(b.newPrice));
-//     } else if (sortType === 'price-desc') {
-//         sorted.sort((a, b) => parsePrice(b.newPrice) - parsePrice(a.newPrice));
-//     } else if (sortType === 'best-selling') {
-//         sorted.sort((a, b) => parseSaled(b.saled) - parseSaled(a.saled));
-//     }
+    if (sortType === 'price-asc') {
+        sorted.sort((a, b) => parsePrice(a.newPrice) - parsePrice(b.newPrice));
+    } else if (sortType === 'price-desc') {
+        sorted.sort((a, b) => parsePrice(b.newPrice) - parsePrice(a.newPrice));
+    } else if (sortType === 'best-selling') {
+        sorted.sort((a, b) => parseSaled(b.saled) - parseSaled(a.saled));
+    }
 
-//     renderProducts(sorted); // Hàm hiển thị sản phẩm
-// }
+    renderProducts(sorted); // Hàm hiển thị sản phẩm
+}
 
-// function renderProducts(data) {
-//     const container = document.querySelector('.product-container'); // class đúng chỗ bạn render
-//     container.innerHTML = '';
+function renderProducts(data) {
+    const container = document.querySelector('.product-container'); // class đúng chỗ bạn render
+    container.innerHTML = '';
 
-//     data.forEach(item => {
-//         container.innerHTML += `
-//             <div class="product-item">
-//                 <h3>${item.name}</h3>
-//                 <p>Giá: ${item.newPrice} đ</p>
-//                 <p>Đã bán: ${item.saled}</p>
-//                 <p>Xuất xứ: ${item.origin}</p>
-//             </div>
-//         `;
-//     });
-// }
+    data.forEach(item => {
+        container.innerHTML += `
+            <div class="product-item">
+                <h3>${item.name}</h3>
+                <p>Giá: ${item.newPrice} đ</p>
+                <p>Đã bán: ${item.saled}</p>
+                <p>Xuất xứ: ${item.origin}</p>
+            </div>
+        `;
+    });
+}
 
     // Auth form
     
@@ -353,26 +353,6 @@ function convertToNumber(str) {
     }));
 }
 
-// Load ban đầu
-fetch(dataUrl)
-    .then(res => res.json())
-    .then(data => {
-        originalList = data;
-        renderItem(originalList);
-        responsive();
-        handlePagination();
-    });
-
-function convertToNumber(str) {
-    if (!str) return 0;
-    return Number(str.replace(/[,.k]/g, function (match) {
-        if (match === 'k') return '000';
-        if (match === ',') return '';
-        if (match === '.') return '';
-        return match;
-    }));
-}
-
 function sortProducts(sortType) {
     let sorted = [...originalList];
     switch (sortType) {
@@ -398,47 +378,55 @@ function sortProducts(sortType) {
     handlePagination();
 }
 
+document.querySelectorAll('.home-filter-btn, .home-filter-sort-item-link').forEach(btn => {
+    btn.addEventListener('click', function () {
+        document.querySelectorAll('.btn--primary').forEach(el => el.classList.remove('btn--primary'));
+        if (btn.classList.contains('home-filter-btn')) btn.classList.add('btn--primary');
+        const sortType = btn.getAttribute('data-sort');
+        sortProducts(sortType);
+    });
+});
 
 // Fetch dữ liệu từ JSON
 fetch('./assets/db/shopee.json')
-  .then(response => response.json())
-  .then(data => {
+.then(response => response.json())
+.then(data => {
     originalList = data;
     renderItem(originalList); // render ban đầu
     responsive();
     handlePagination();
-  });
+});
 
 // Sự kiện khi nhấn nút "Áp dụng"
 document.querySelector('.category-group-filter-btn').addEventListener('click', () => {
-  applyFilters();
+applyFilters();
 });
 
 // Hàm lọc theo thành phố và khoảng giá
 function applyFilters() {
-  let filtered = [...originalList];
+let filtered = [...originalList];
 
-  // --- LỌC THEO THÀNH PHỐ ---
-  const checkedCities = document.querySelectorAll('.category-group-item-check:checked');
-  const selectedCities = Array.from(checkedCities).map(cb => cb.value);
+// --- LỌC THEO THÀNH PHỐ ---
+const checkedCities = document.querySelectorAll('.category-group-item-check:checked');
+const selectedCities = Array.from(checkedCities).map(cb => cb.value);
 
-  if (selectedCities.length > 0) {
+if (selectedCities.length > 0) {
     filtered = filtered.filter(item => selectedCities.includes(item.origin));
-  }
+}
 
-  // --- LỌC THEO KHOẢNG GIÁ ---
-  const minPriceInput = document.getElementById('min-price');
-  const maxPriceInput = document.getElementById('max-price');
-  const minPrice = parseInt(minPriceInput.value) || 0;
-  const maxPrice = parseInt(maxPriceInput.value) || Infinity;
+// --- LỌC THEO KHOẢNG GIÁ ---
+const minPriceInput = document.getElementById('min-price');
+const maxPriceInput = document.getElementById('max-price');
+const minPrice = parseInt(minPriceInput.value) || 0;
+const maxPrice = parseInt(maxPriceInput.value) || Infinity;
 
-  filtered = filtered.filter(item => {
+filtered = filtered.filter(item => {
     const price = parseInt(item.newPrice.replace(/\./g, '')); // bỏ dấu chấm, chuyển về số
     return price >= minPrice && price <= maxPrice;
-  });
+});
 
-  // --- HIỂN THỊ DANH SÁCH ĐÃ LỌC ---
-  renderItem(filtered);
-  responsive();
-  handlePagination();
+// --- HIỂN THỊ DANH SÁCH ĐÃ LỌC ---
+renderItem(filtered);
+responsive();
+handlePagination();
 }
